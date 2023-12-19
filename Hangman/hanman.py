@@ -23,7 +23,7 @@ def hangman():
         print(
             "you have",
             lives,
-            "and you have already used these letters: ",
+            "live and you have already used these letters: ",
             "".join(used_letters),
         )
 
